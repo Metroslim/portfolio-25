@@ -1,0 +1,31 @@
+[
+  {
+    "id": 0,
+    "name": "Myra - Mixed Reality Experience",
+    "short_name": "MyraMR",
+    "description": "15 minutes multiusers/multilanguage mixed reality experience for Traumatica 2024 - the Europapark Halloween special event.",
+    "tags": ["Unity 3D", "C#", "VFX", "Networking", "Mixed Reality", "Vive Elite XR headset"],
+    "client": "Europapark",
+    "backgroundImagePath": "/images/work-item-bg.png",
+    "content": "WIP",
+    "responsabilities": [
+      "In house framework developmennt for network communication between apps",
+      "In house framework developmennt for the headset app",
+      "3D Assets integration and optimization",
+      "Creation of the experience timelines",
+      "VFX",
+      "Performance optimization"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "WIP NAME",
+    "short_name": "WIP SHORT NAME",
+    "description": "WIP DESCRIPTION",
+    "tags": ["Unity 3D", "C#", "VFX", "Networking", "Mixed Reality", "Vive Elite XR headset"],
+    "client": "WIP CLIENT",
+    "backgroundImagePath": "/images/work-item-bg.png",
+    "content": "WIP",
+    "responsabilities": ["WIP RESP 1", "WIP RESP 2", "WIP RESP 3"]
+  }
+]
