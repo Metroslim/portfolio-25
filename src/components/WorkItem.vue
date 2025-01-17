@@ -20,7 +20,7 @@ defineProps<{
       <h3 class="absolute left-[15%] top-[30%] text-7xl text-white font-bold">
         {{ work.name }}
       </h3>
-      <div class="absolute left-[19%] top-[50%] w-[20%] text-black px-6 py-4 bg-white">
+      <div class="absolute left-[19%] top-[47%] w-[20%] text-black px-6 pt-4 pb-6 bg-white">
         <p class="text-lg">{{ work.description }}</p>
         <h4 class="mb-2 underline underline-offset-8 decoration-dotted mt-4">Responsabilities:</h4>
         <ul class="list-disc pl-8">
