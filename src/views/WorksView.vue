@@ -4,12 +4,12 @@ import WorkItem from '../components/WorkItem.vue'
 </script>
 
 <template>
-  <div class="absolute bottom-[5%] w-full">
-    <h2 class="text-9xl text-center mb-8 font-bold">Works</h2>
+  <div class="fixed bottom-[5%] w-full mb-8 pointer-events-none">
+    <h2 class="text-6xl text-center font-bold mb-4">Works</h2>
     <object
       data="./ui/down-chevron.svg"
       type="image/svg+xml"
-      class="h-16 w-32 mx-auto object-contain"
+      class="h-14 w-28 mx-auto object-contain"
     />
   </div>
   <section
