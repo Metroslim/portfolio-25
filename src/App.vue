@@ -17,7 +17,7 @@ import RightArrowSVG from './components/svg/RightArrowSVG.vue'
             target="_blank"
           >
             <RightArrowSVG class="h-10 w-8 fill-white" />
-            <span class="flex-initial">Resume</span>
+            <span class="flex-initial">Download resume</span>
           </a>
         </nav>
       </div>
