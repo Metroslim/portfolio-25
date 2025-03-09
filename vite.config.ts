@@ -19,5 +19,5 @@ export default defineConfig({
       },
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/portfolio-25' : '/',
+  base: '/portfolio-25',
 })

@@ -2,19 +2,17 @@
 <script setup lang="ts">
 import * as THREE from 'three'
 
-import Stats from 'three/addons/libs/stats.module.js'
-
 import { MarchingCubes } from 'three/addons/objects/MarchingCubes.js'
 import { ToonShaderHatching } from 'three/addons/shaders/ToonShader.js'
 import { onMounted } from 'vue'
 
-let container: HTMLElement | null, stats: Stats
+let container: HTMLElement | null
 
 let camera: THREE.PerspectiveCamera, scene: THREE.Scene, renderer: THREE.WebGLRenderer
 
 let light: THREE.Light
 
-const effectController: any = {
+const effectParams: any = {
   scale: 50,
   speed: 0.15,
   numBlobs: 30,
@@ -23,7 +21,6 @@ const effectController: any = {
 }
 
 let effect: MarchingCubes
-let resolution: number
 
 let time: number = 0
 const clock = new THREE.Clock()
@@ -52,9 +49,9 @@ function init() {
   const material = createShaderMaterial(ToonShaderHatching, light)
 
   // MARCHING CUBES
-  effect = new MarchingCubes(effectController.resolution, material, false, false, 100000)
+  effect = new MarchingCubes(effectParams.resolution, material, false, false, 100000)
   effect.position.set(0, 0, 0)
-  effect.scale.set(effectController.scale, effectController.scale, effectController.scale)
+  effect.scale.set(effectParams.scale, effectParams.scale, effectParams.scale)
 
   scene.add(effect)
 
@@ -67,11 +64,6 @@ function init() {
 
   container?.appendChild(renderer.domElement)
 
-  // STATS
-  //stats = new Stats()
-  //container?.appendChild(stats.dom)
-
-  // EVENTS
   window.addEventListener('resize', onWindowResize)
 }
 
@@ -116,41 +108,26 @@ function updateCubes(object: MarchingCubes, time: number, numblobs: number) {
   object.update()
 }
 
-//
-
 function animate() {
   render()
-  //stats.update()
 }
 
 function render() {
   const delta = clock.getDelta()
 
-  time += delta * effectController.speed * 0.5
+  time += delta * effectParams.speed * 0.5
 
-  // marching cubes
-
-  if (effectController.resolution !== resolution) {
-    resolution = effectController.resolution
-    effect.init(Math.floor(resolution))
-  }
-
-  if (effectController.isolation !== effect.isolation) {
-    effect.isolation = effectController.isolation
-  }
-
-  updateCubes(effect, time, effectController.numBlobs)
-
-  // render
-
+  updateCubes(effect, time, effectParams.numBlobs)
   renderer.render(scene, camera)
 }
 </script>
 
 <template>
-  <div class="fixed left-[20%] top-[20%] pointer-events-none">
-    <h1 class="text-9xl font-bold">Arnaud Masson</h1>
-    <h2 class="text-7xl font-bold text-purple-500">Senior Unity Developer</h2>
+  <div
+    class="fixed left-[6%] top-[25%] lg:left-[8%] xl:left-[16%] 2xl:left-[20%] lg:top-[15%] xl:top-[18%] 2xl:top-[20%] pointer-events-none"
+  >
+    <h1 class="text-8xl lg:text-9xl font-bold">Arnaud Masson</h1>
+    <h2 class="text-6xl lg:text-7xl font-bold text-purple-500">Senior Unity Developer</h2>
     <h3 class="text-4xl font-semibold mt-8">MR, VR, AR, Interactive Experiences</h3>
   </div>
   <div class="fixed top-0 left-0 w-full h-full z-[-1] bg-white opacity-70"></div>
