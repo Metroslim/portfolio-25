@@ -11,7 +11,8 @@
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
@@ -32,6 +33,7 @@
     "eslint": "^9.14.0",
     "eslint-plugin-vue": "^9.30.0",
     "execa": "^9.5.2",
+    "gh-pages": "^6.3.0",
     "npm-run-all2": "^7.0.2",
     "prettier": "^3.3.3",
     "sass": "^1.83.1",
