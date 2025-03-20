@@ -125,13 +125,15 @@ function render() {
 
 <template>
   <div
-    class="fixed left-[20px] top-[120px] md:top-[25%] lg:left-[8%] xl:left-[16%] 2xl:left-[20%] lg:top-[15%] xl:top-[18%] 2xl:top-[20%] pointer-events-none"
+    class="fixed left-[20px] top-[120px] md:left-[8%] md:top-[25%] lg:left-[8%] xl:left-[16%] 2xl:left-[20%] lg:top-[15%] xl:top-[18%] 2xl:top-[20%] pointer-events-none"
   >
-    <h1 class="text-6xl md:text-8xl lg:text-9xl font-bold">Arnaud Masson</h1>
-    <h2 class="text-4xl md:text-6xl lg:text-7xl font-bold text-purple-500 mr-8">
+    <h1 class="text-6xl md:text-7xl lg:text-8xl font-bold">Arnaud Masson</h1>
+    <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-purple-500 mr-8">
       Senior Unity Developer
     </h2>
-    <h3 class="text-2xl md:text-4xl font-semibold mt-8">MR, VR, AR, Interactive Experiences</h3>
+    <h3 class="text-2xl md:text-3xl lg:text-4xl font-semibold mt-8">
+      MR, VR, AR, Interactive Experiences
+    </h3>
   </div>
   <div class="fixed top-0 left-0 w-full h-full z-[-1] bg-white opacity-70"></div>
   <div id="marchinecube-container" class="fixed top-0 left-0 w-full h-full z-[-5]"></div>

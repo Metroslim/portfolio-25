@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "name": "Myra - Mixed Reality Experience",
+    "name": "Myra - MR Experience",
     "short_name": "MyraMR",
     "description": "15 minutes multiusers/multilanguage mixed reality experience for Traumatica 2024 - the Europapark Halloween special event.",
     "tags": ["Unity 3D", "C#", "VFX", "Networking", "Mixed Reality", "Vive Elite XR headset"],

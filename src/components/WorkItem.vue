@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <div
-    class="item relative h-full w-full bg-gradient-to-r group-odd:from-purple-500 group-odd:to-pink-500 group-even:from-sky-500 group-even:to-indigo-500"
+    class="item relative h-full w-full bg-gradient-to-r group-odd:from-purple-500 group-odd:to-pink-500 group-even:from-sky-500 group-even:to-indigo-500 overflow-hidden"
   >
     <img
       class="absolute p-[15px] h-full w-full lg:p-0 lg:h-[70%] lg:w-[initial] lg:aspect-[4/3] lg:top-[55%] lg:left-[55%] lg:translate-x-[-50%] lg:translate-y-[-50%] object-cover z-0"
@@ -18,25 +18,25 @@ defineProps<{
     />
     <div class="absolute h-full w-full z-5">
       <h3
-        class="ml-[30px] mt-[30px] md:absolute md:left-[10%] md:top-[15%] lg:left-[10%] lg:top-[23%] xl:left-[15%] xl:top-[25%] text-4xl md:text-6xl xl:text-7xl text-white font-bold"
+        class="ml-[30px] mt-[30px] md:m-0 md:absolute md:left-[10%] md:top-[12%] lg:left-[10%] lg:top-[23%] xl:left-[15%] xl:top-[25%] text-4xl md:text-5xl lg:text-6xl text-white font-bold"
       >
         {{ work.name }}
       </h3>
       <span
-        class="block ml-[30px] mt-[15px] md:absolute md:left-[10%] md:top-[27%] lg:left-[10%] lg:top-[32%] xl:left-[17%] xl:top-[35%] text-3xl text-black italic font-bold"
+        class="block ml-[30px] mt-[15px] md:m-0 md:absolute md:left-[10%] md:top-[22%] lg:left-[10%] lg:top-[32%] xl:left-[17%] xl:top-[35%] text-3xl text-black italic font-bold"
       >
         For {{ work.client }}
       </span>
       <div
-        class="ml-[30px] mt-[30px] mr-[30px] md:absolute md:right-[10%] md:top-[40%] lg:left-[15%] lg:top-[40%] xl:left-[19%] xl:top-[42%] md:w-[460px] text-black px-6 pt-4 pb-6 bg-white"
+        class="ml-[30px] mt-[30px] mr-[30px] md:m-0 md:absolute md:right-[10%] md:top-[40%] lg:left-[15%] lg:top-[40%] xl:left-[19%] xl:top-[42%] md:w-[460px] text-black px-6 pt-4 pb-6 bg-white"
       >
-        <p class="text-xs md:text-lg">{{ work.description }}</p>
+        <p class="text-xs md:text-sm xl:text-lg">{{ work.description }}</p>
         <p
-          class="text-xs md:text-lg mb-2 underline underline-offset-8 decoration-dotted mt-2 md:mt-4"
+          class="text-xs md:text-sm xl:text-lg mb-2 underline underline-offset-8 decoration-dotted mt-2 md:mt-4"
         >
           Responsabilities:
         </p>
-        <ul class="list-disc pl-3 md:pl-8 text-xs md:text-lg">
+        <ul class="list-disc pl-3 md:pl-8 text-xs md:text-sm xl:text-lg">
           <li v-for="responsability in work.responsabilities" v-bind:key="responsability">
             {{ responsability }}
           </li>
