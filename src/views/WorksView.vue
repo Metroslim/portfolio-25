@@ -12,12 +12,12 @@ for (const work of WorksData) {
 </script>
 
 <template>
-  <div class="fixed bottom-[5%] w-full mb-8 pointer-events-none">
-    <h2 class="text-5xl xl:text-6xl text-center font-bold mb-4">Works</h2>
+  <div class="fixed bottom-0 md:bottom-[5%] w-full mb-8 pointer-events-none">
+    <h2 class="text-4xl md:text-5xl xl:text-6xl text-center font-bold mb-4">Works</h2>
     <object
       data="./ui/down-chevron.svg"
       type="image/svg+xml"
-      class="h-10 w-14 xl:h-14 xl:w-28 mx-auto object-contain"
+      class="h-8 w-10 md:h-10 md:w-14 xl:h-14 xl:w-28 mx-auto object-contain"
     />
   </div>
   <section
