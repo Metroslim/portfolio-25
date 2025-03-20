@@ -13,7 +13,7 @@ for (const work of WorksData) {
 
 <template>
   <div class="fixed bottom-0 md:bottom-[5%] w-full mb-8 pointer-events-none">
-    <h2 class="text-4xl md:text-5xl xl:text-6xl text-center font-bold mb-4">Works</h2>
+    <h2 class="text-4xl md:text-5xl xl:text-6xl text-center font-bold mb-2 md:mb-4">Works</h2>
     <object
       data="./ui/down-chevron.svg"
       type="image/svg+xml"
