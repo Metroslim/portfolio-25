@@ -35,7 +35,7 @@ defineProps<{
         </ul>
       </div>
       <ul
-        class="text-md md:text-lg text-white mt-auto justify-around flex flex-wrap py-2 px-6 bg-black"
+        class="text-md md:text-lg lg:max-w-2xl lg:self-end text-white mt-auto justify-around flex flex-wrap py-2 px-6 bg-black"
       >
         <li v-for="tag in work.tags" v-bind:key="tag" class="mr-4 last:mr-0">
           {{ tag }}
