@@ -12,31 +12,35 @@ defineProps<{
   >
     <div class="w-full max-w-5xl mx-auto h-full relative">
       <img
-        class="absolute p-[1rem] md:p-[2rem] h-full w-full object-cover z-0"
+        class="absolute p-[1rem] md:p-[2rem] lg:pt-[8rem] lg:pb-[6rem] lg:pl-[8rem] h-full w-full object-cover z-0"
         :src="work.backgroundImagePath"
         alt="Work Item Background"
         name="background"
       />
       <div class="p-[2rem] md:p-[4rem] h-full w-full relative z-5 flex flex-col">
-        <h3 class="text-4xl md:text-5xl text-white font-bold">
+        <h3 class="text-4xl md:text-5xl lg:text-6xl lg:mt-[5rem] text-white font-bold">
           {{ work.name }}
         </h3>
-        <p class="mt-[1rem] md:mt-[2rem] text-2xl md:text-3xl text-black italic font-bold">
+        <p
+          class="mt-[1rem] md:mt-[2rem] lg:ml-[2rem] text-2xl md:text-3xl lg:text-4xl text-black italic font-bold"
+        >
           For {{ work.client }}
         </p>
-        <div class="mt-[2rem] md:mt-[4rem] p-3 md:p-5 lg:max-w-xl text-black bg-white">
-          <p class="text-xs md:text-sm font-semibold">{{ work.description }}</p>
-          <p class="mt-2 md:mt-6 text-xs md:text-sm underline underline-offset-4 decoration-dotted">
+        <div
+          class="mt-[2rem] md:mt-[4rem] lg:ml-[2rem] p-3 md:p-5 text-xs md:text-sm lg:text-base lg:max-w-xl text-black bg-white"
+        >
+          <p class="font-semibold">{{ work.description }}</p>
+          <p class="mt-2 md:mt-6 underline underline-offset-4 decoration-dotted">
             Responsabilities:
           </p>
-          <ul class="mt-2 ml-3 md:mt-4 text-xs md:text-sm list-disc">
+          <ul class="mt-2 ml-3 md:mt-4 list-disc">
             <li v-for="responsability in work.responsabilities" v-bind:key="responsability">
               {{ responsability }}
             </li>
           </ul>
         </div>
         <ul
-          class="text-md md:text-lg lg:max-w-2xl lg:self-end text-white mt-auto justify-around flex flex-wrap py-2 px-6 bg-black"
+          class="text-md md:text-base lg:text-lg lg:max-w-2xl lg:self-end lg:mb-4 text-white mt-auto justify-around flex flex-wrap py-2 px-6 bg-black"
         >
           <li v-for="tag in work.tags" v-bind:key="tag" class="mr-4 last:mr-0">
             {{ tag }}
