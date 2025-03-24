@@ -126,18 +126,18 @@ function render() {
 <template>
   <section class="w-full h-dvh snap-always snap-start">
     <div class="w-full h-full fixed justify-start items-start flex flex-col pointer-events-none">
-      <div class="max-w-5xl w-full pt-8 px-8 flex flex-col">
-        <h1 class="text-6xl font-bold">Arnaud Masson</h1>
-        <h2 class="text-4xl font-bold text-purple-500 mt-2">Senior Unity Developer</h2>
-        <h3 class="text-2xl font-semibold mt-6">MR, VR, AR, Interactive Experiences</h3>
+      <div class="max-w-5xl w-full pt-8 px-8 md:pt-16 md:px-14 flex flex-col">
+        <h1 class="text-6xl md:text-7xl font-bold">Arnaud Masson</h1>
+        <h2 class="text-4xl md:text-5xl font-bold text-purple-500 mt-2">Senior Unity Developer</h2>
+        <h3 class="text-2xl md:text-3xl font-semibold mt-6">MR, VR, AR, Interactive Experiences</h3>
       </div>
-      <div class="self-end mt-20">
+      <div class="self-end mt-20 md:mr-[120px] md:mt-[240px]">
         <a
-          class="flex flex-row items-center text-sm font-semibold py-3 px-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white pointer-events-auto"
+          class="flex flex-row items-center text-sm md:text-lg font-semibold py-3 px-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white pointer-events-auto"
           href="./pdf/Resume - Arnaud Masson - 2025.pdf"
           target="_blank"
         >
-          <RightArrowSVG class="h-6 w-4 fill-white" />
+          <RightArrowSVG class="h-6 w-4 md:h-8 md:w-6 md:mr-2 fill-white" />
           <span class="flex-initial">Download resume</span>
         </a>
       </div>
