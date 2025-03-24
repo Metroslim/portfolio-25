@@ -12,18 +12,18 @@ for (const work of WorksData) {
 </script>
 
 <template>
-  <div class="fixed bottom-0 md:bottom-[5%] w-full mb-8 pointer-events-none">
-    <h2 class="text-4xl md:text-5xl xl:text-6xl text-center font-bold mb-2 md:mb-4">Works</h2>
+  <div class="absolute bottom-8 w-full">
+    <h2 class="text-4xl text-center font-bold">Works</h2>
     <object
       data="./ui/down-chevron.svg"
       type="image/svg+xml"
-      class="h-8 w-10 md:h-10 md:w-14 xl:h-14 xl:w-28 mx-auto object-contain"
+      class="h-8 w-10 mx-auto object-contain mt-2"
     />
   </div>
   <section
     v-for="work in WorksData"
     v-bind:key="work.name"
-    class="group h-full snap-always snap-center"
+    class="group h-dvh snap-always snap-start"
   >
     <WorkItem :work="work" />
   </section>

@@ -4,10 +4,8 @@ import PortfolioHeader from './components/PortfolioHeader.vue'
 </script>
 
 <template>
-  <main class="h-dvh snap-y snap-mandatory overflow-y-auto">
-    <section class="h-full snap-always snap-center">
-      <PortfolioHeader />
-    </section>
+  <main class="snap-y snap-mandatory overflow-y-auto relative h-dvh w-full">
+    <PortfolioHeader />
     <RouterView />
   </main>
 </template>
