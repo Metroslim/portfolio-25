@@ -23,7 +23,7 @@ defineProps<{
       <p class="mt-[15px] md:mt-[30px] text-3xl md:text-4xl text-black italic font-bold">
         For {{ work.client }}
       </p>
-      <div class="mt-[30px] md:mt-[60px] text-black bg-white p-3 md:p-5">
+      <div class="mt-[30px] md:mt-[60px] p-3 md:p-5 lg:max-w-xl text-black bg-white">
         <p class="text-xs md:text-sm font-semibold">{{ work.description }}</p>
         <p class="mt-2 md:mt-6 text-xs md:text-sm underline underline-offset-4 decoration-dotted">
           Responsabilities:
