@@ -7,7 +7,6 @@
     "tags": ["Unity 3D", "C#", "VFX", "Networking", "Mixed Reality", "Vive Elite XR headset"],
     "client": "Europapark",
     "backgroundImagePath": "./images/work-item-bg.png",
-    "content": "WIP",
     "responsabilities": [
       "In house framework developmennt for network communication between apps",
       "In house framework developmennt for the headset app",
@@ -19,14 +18,19 @@
   },
   {
     "id": 1,
-    "name": "WIP NAME",
-    "short_name": "WIP SHORT NAME",
-    "description": "WIP DESCRIPTION",
-    "tags": ["Unity 3D", "C#", "VFX", "Networking", "Mixed Reality", "Vive Elite XR headset"],
-    "client": "WIP CLIENT",
-    "backgroundImagePath": "./images/work-item-bg.png",
-    "content": "WIP",
-    "responsabilities": ["WIP RESP 1", "WIP RESP 2", "WIP RESP 3"]
+    "name": "AR+GPS Indoor Wayfinding",
+    "short_name": "MiamiHeat",
+    "description": "Augmented Reality Wayfinding experience for the Miami Heat Stadium. Location datas came from an external SDK called Mapsted. The accuracy wasn't enought to provide a stable AR experience, so we had to create a custom solution to improve the accuracy.",
+    "tags": ["Unity 3D", "C#", "AR+GPS", "Cloud Anchor", "Native Android", "Mini Games"],
+    "client": "Miami Heat Stadium",
+    "backgroundImagePath": "./images/miamiheat.jpg",
+    "responsabilities": [
+      "Communication between native android and Unity app",
+      "Creating the AR Wayfinding experience based on AR + location datas",
+      "On-site optimization of AR Experience with location datas accuracy",
+      "Google Cloud Anchor for mini games",
+      "Native integration of the Unity app in the Android app"
+    ]
   },
   {
     "id": 2,

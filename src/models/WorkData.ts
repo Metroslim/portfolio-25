@@ -6,6 +6,5 @@ export class WorkData {
   tags: string[] = []
   client: string = ''
   backgroundImagePath: string = ''
-  content: string = ''
   responsabilities: string[] = []
 }

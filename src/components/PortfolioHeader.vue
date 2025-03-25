@@ -125,9 +125,9 @@ function render() {
 
 <template>
   <section class="w-full h-dvh snap-always snap-start">
-    <div class="w-full h-full fixed pointer-events-none z-[-1]">
-      <div class="w-full max-w-5xl mx-auto h-full justify-start items-start flex flex-col">
-        <div class="w-full pt-8 px-8 md:pt-16 md:px-14 lg:pt-[8rem] flex flex-col">
+    <div class="w-full h-full pointer-events-none fixed">
+      <div class="w-full max-w-6xl mx-auto h-full justify-start items-start flex flex-col">
+        <div class="w-full pt-6 px-6 md:pt-16 md:px-14 lg:pt-[8rem] flex flex-col">
           <h1 class="text-6xl md:text-7xl font-bold">Arnaud Masson</h1>
           <h2 class="text-4xl md:text-5xl font-bold text-purple-500 mt-2">
             Senior Unity Developer
@@ -136,9 +136,9 @@ function render() {
             MR, VR, AR, Interactive Experiences
           </h3>
         </div>
-        <div class="self-end mt-20 md:mr-[8rem] md:mt-[12rem]">
+        <div class="self-end mt-20 md:mr-[8rem] md:mt-[12rem] mdh:mt-[4rem] pointer-events-auto">
           <a
-            class="flex flex-row items-center text-sm md:text-lg font-semibold py-3 px-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white pointer-events-auto"
+            class="flex flex-row items-center text-sm md:text-lg font-semibold py-3 px-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white"
             href="./pdf/Resume - Arnaud Masson - 2025.pdf"
             target="_blank"
           >
@@ -147,8 +147,16 @@ function render() {
           </a>
         </div>
       </div>
-      <div class="absolute top-0 left-0 w-full h-full z-[-1] bg-white opacity-60"></div>
-      <div id="marchinecube-container" class="absolute top-0 left-0 right-0 h-full z-[-2]"></div>
+    </div>
+
+    <div class="w-full h-full fixed z-[-1]">
+      <div
+        class="absolute top-0 left-0 w-full h-full z-[-1] bg-white opacity-60 pointer-events-none"
+      ></div>
+      <div
+        id="marchinecube-container"
+        class="absolute top-0 left-0 right-0 h-full z-[-2] pointer-events-none"
+      ></div>
     </div>
   </section>
 </template>
