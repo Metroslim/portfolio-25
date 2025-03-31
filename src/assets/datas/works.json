@@ -1,14 +1,13 @@
 [
   {
-    "id": 0,
     "name": "Myra - MR Experience",
     "short_name": "MyraMR",
-    "description": "15 minutes multiusers/multilanguage mixed reality experience for Traumatica 2024 - the Europapark Halloween special event.",
+    "description": "15 minutes multiusers & multilanguage mixed reality experience for Traumatica 2024 - the Europapark Halloween special event.",
     "tags": ["Unity 3D", "C#", "VFX", "Networking", "Mixed Reality", "Vive Elite XR headset"],
     "client": "Europapark",
-    "backgroundImagePath": "./images/work-item-bg.png",
+    "backgroundImagePath": "./images/myra.jpg",
     "responsabilities": [
-      "In house framework developmennt for network communication between apps",
+      "In house framework developmennt for network communication",
       "In house framework developmennt for the headset app",
       "3D Assets integration and optimization",
       "Creation of the experience timelines",
@@ -17,7 +16,21 @@
     ]
   },
   {
-    "id": 1,
+    "name": "Matsuya Lauching Event",
+    "short_name": "matsuya",
+    "description": "For the Matsuya Ginza online shop launch in Tokyo, three experiences were created. A 3D anamorphic billboard, an interactive screen where users designed and spawned custom characters via a mobile web app, and another screen for sending messages into the scene.",
+    "tags": ["Unity 3D", "C#", "Web Socket", "AI navigation", "Anamorphosis"],
+    "client": "Matsuya",
+    "backgroundImagePath": "./images/matsuya.jpg",
+    "responsabilities": [
+      "Create the architecture of the 3 unity projects",
+      "HDRP settings to match the vision of the 3D artist",
+      "Runtime tool to configure on-site anamorphosis",
+      "Web socket communication between screens and webapp",
+      "Create random AI navigation for the characters"
+    ]
+  },
+  {
     "name": "AR+GPS Indoor Wayfinding",
     "short_name": "MiamiHeat",
     "description": "Augmented Reality Wayfinding experience for the Miami Heat Stadium. Location datas came from an external SDK called Mapsted. The accuracy wasn't enought to provide a stable AR experience, so we had to create a custom solution to improve the accuracy.",
@@ -33,14 +46,120 @@
     ]
   },
   {
-    "id": 2,
-    "name": "WIP NAME",
-    "short_name": "WIP SHORT NAME",
-    "description": "WIP DESCRIPTION",
-    "tags": ["Unity 3D", "C#", "VFX", "Networking", "Mixed Reality", "Vive Elite XR headset"],
-    "client": "WIP CLIENT",
-    "backgroundImagePath": "./images/work-item-bg.png",
-    "content": "WIP",
-    "responsabilities": ["WIP RESP 1", "WIP RESP 2", "WIP RESP 3"]
+    "name": "Building visualizer",
+    "short_name": "nineteengroupe",
+    "description": "Multiusers mixed reality building visualizer for the Nineteen Groupe. The app is used to visualize the building in real time with a 3D model in mixed reality. The presentation of the buildings is done by an operator with a tablet (Operator App), and the visualization is done by users with a VR headset (Viewer App) the communication is done via the Server App.",
+    "tags": ["Unity 3D", "C#", "Networking", "Mixed Reality", "Occulus 3", "Optimization", "Tools"],
+    "client": "Nineteen Groupe",
+    "backgroundImagePath": "./images/nineteengroupe.png",
+    "responsabilities": [
+      "Defining guidelines for the 3d models used for buildings",
+      "Industrialisation to implement new buildings",
+      "Optimization",
+      "UI for the operator and viewer app",
+      "Networking communication between the apps"
+    ]
+  },
+  {
+    "name": "IDance",
+    "short_name": "idance",
+    "description": "Based on an idea of the artist Pierre Giner, I-Dance is a interactive installation that invite people to enter a fullbody scan and a few minutes after they can find their 3d avatar on a web app dancing like a pro. You can customize your avatar and choose incredible dancers accompanying you and generate impacting video clips.",
+    "tags": ["Unity 3D", "C#", "Body scan", "Motion capture", "Video generation"],
+    "client": "Bonlieu Scène Nationale",
+    "backgroundImagePath": "./images/idance.jpg",
+    "responsabilities": [
+      "Motion capture of the dances and and cleaning of the data",
+      "Benchmark and installation of the bodyscanner",
+      "Operator IOs App for the full body scan",
+      "Automatic pipeline to process the scanned avatars",
+      "Randomized and on the beats videos generation"
+    ]
+  },
+  {
+    "name": "Closer's Cavern",
+    "short_name": "closerscavern",
+    "description": "Closer's cavern was be the centerpiece of the sales Lodge where attendees can test their sales cloud knowledge to earn a spot on the leaderboard. The game was a 3D experience where users can explore a cave to search for hidden gems and find the right answers to the questions.",
+    "tags": ["Unity 3D", "C#", "Websocket communication", "Leaderboard", "Video game"],
+    "client": "Salesforce",
+    "backgroundImagePath": "./images/closerscavern.jpg",
+    "responsabilities": [
+      "UI Integration in Unity",
+      "Develop the gameplay mechanics",
+      "Websocket communication with the server",
+      "Leaderboard managment",
+      "Video game optimization"
+    ]
+  },
+  {
+    "name": "Yomis' Magic Mirror",
+    "short_name": "magicmirror",
+    "description": "The magic mirror is a screen that allows you to see yourself with the jowerly of the Yomis (little green mythical creatures created by Europapark) that give you magic powers in your hands. This mirror take place inside a wainting line for a film adventure for the whole family",
+    "tags": ["Unity 3D", "C#", "Azure Kinect", "Body tracking", "VFX"],
+    "client": "Europapark",
+    "backgroundImagePath": "./images/magicmirror.jpg",
+    "responsabilities": [
+      "Body tracking with the Azure Kinect",
+      "Necklace props spawning",
+      "VFX",
+      "Game management system",
+      "Communication with on-site lights and sound system"
+    ]
+  },
+  {
+    "name": "AR Interactive Map",
+    "short_name": "interactivemapar",
+    "description": "Explore ancient maps and bring places steeped in history to life. Thanks to augmented reality, ancient buildings come to life. Like a true exploration game, we've created gameplay that invites the user to find clues hidden in virtual buildings.",
+    "tags": ["Unity 3D", "C#", "AR", "Serious game"],
+    "client": "Departmental archive",
+    "backgroundImagePath": "./images/interactivemapar.jpg",
+    "responsabilities": [
+      "3D Assets integration and optimization",
+      "AR images tracking",
+      "Game management system",
+      "Archive medias integration"
+    ]
+  },
+  {
+    "name": "Windows AR Visualizer",
+    "short_name": "windowsarvisualizer",
+    "description": "Andersen have a web 3d visualizer for their windows and doors. The goal of this project was to create a mobile app that allow the user to visualize the windows and doors in AR with their phone or tablet.",
+    "tags": ["Android native AR", "Kotlin", "Webapp integration", "Android as a library"],
+    "client": "Andersen",
+    "backgroundImagePath": "./images/windowsvisualizerar.jpg",
+    "responsabilities": [
+      "Android native AR",
+      "Webapp integration",
+      "Webapp communication",
+      "Android as a library"
+    ]
+  },
+  {
+    "name": "Supernal Farnborough Airshow",
+    "short_name": "supernal",
+    "description": "Supernal’s challenge: communicating their vision of Air Mobility and generating excitement about their Electronic Vertical Take-off and Landing cockpit cabin concept. They needed to showcase their brand and create immersive experiences that would captivate and engage audiences.",
+    "tags": ["Unity 3D", "C#", "AR", "Network communication", "Kiosk mode"],
+    "client": "Supernal",
+    "backgroundImagePath": "./images/supernal.jpg",
+    "responsabilities": [
+      "3D Assets integration and optimization",
+      "AR tracking",
+      "Game management system",
+      "Network communication with the server",
+      "Kiosk mode"
+    ]
+  },
+  {
+    "name": "AR Car configurator",
+    "short_name": "arcarconfigurator",
+    "description": "For the CES, Marelli wanted to showcase their new car configurator in AR. The goal was to create a configurator that allow the user to discover and customize the car of their dreams.",
+    "tags": ["Unity 3D", "C#", "AR", "Configurator", "Websocket communication"],
+    "client": "Marelli",
+    "backgroundImagePath": "./images/arcarconfigurator.jpg",
+    "responsabilities": [
+      "3D Assets integration and optimization",
+      "AR tracking",
+      "Configurator management system",
+      "Websocket communication with the server"
+    ]
   }
 ]

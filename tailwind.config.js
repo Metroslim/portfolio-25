@@ -6,7 +6,10 @@ export default {
     extend: {
       screens: {
         mdh: {
-          raw: '(max-height: 800px)',
+          raw: '(max-height: 850px)',
+        },
+        smh: {
+          raw: '(max-height: 730px)',
         },
       },
     },

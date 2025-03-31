@@ -10,8 +10,9 @@
   font-weight: normal;
 }
 
-body {
+html {
   text-size-adjust: none;
+  font-size: 16px;
 }
 
 @media (width >= 64rem) {

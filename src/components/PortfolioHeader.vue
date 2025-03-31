@@ -136,7 +136,9 @@ function render() {
             MR, VR, AR, Interactive Experiences
           </h3>
         </div>
-        <div class="self-end mt-20 md:mr-[8rem] md:mt-[12rem] mdh:mt-[4rem] pointer-events-auto">
+        <div
+          class="self-end mt-20 md:mr-[8rem] md:mt-[12rem] mdh:mt-[6rem] smh:mt-[4rem] pointer-events-auto"
+        >
           <a
             class="flex flex-row items-center text-sm md:text-lg font-semibold py-3 px-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white"
             href="./pdf/Resume - Arnaud Masson - 2025.pdf"
