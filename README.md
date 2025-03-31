@@ -1,18 +1,14 @@
-# senior-unity-developer---arnaudmasson
+# Arnaud Masson - Senior Unity Developer - Portfolio 2025
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a static website presenting some projects done by Arnaud Masson.
+https://metroslim.github.io/portfolio-25/
 
-## Recommended IDE Setup
+## Technical Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue3
+- Vite
+- Json for data
+- Threejs for 3D background
 
 ## Project Setup
 
@@ -32,8 +28,10 @@ yarn dev
 yarn build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Deploy
+
+Deploy to the Github page thanks to gh-pages module.
 
 ```sh
-yarn lint
+yarn deploy
 ```
