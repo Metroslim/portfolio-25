@@ -2,7 +2,7 @@
   {
     "name": "Myra - MR Experience",
     "short_name": "MyraMR",
-    "description": "15 minutes multiusers & multilanguage mixed reality experience for Traumatica 2024 - the Europapark Halloween special event.",
+    "description": "A 15-minute multiuser & multilanguage mixed reality experience for Traumatica 2024 - the Europapark Halloween special event.",
     "tags": ["Unity 3D", "C#", "VFX", "Networking", "Mixed Reality", "Vive Elite XR headset"],
     "client": "Europapark",
     "backgroundImagePath": "./images/myra.jpg",
@@ -33,7 +33,7 @@
   {
     "name": "AR+GPS Indoor Wayfinding",
     "short_name": "MiamiHeat",
-    "description": "Augmented Reality Wayfinding experience for the Miami Heat Stadium. Location datas came from an external SDK called Mapsted. The accuracy wasn't enought to provide a stable AR experience, so we had to create a custom solution to improve the accuracy.",
+    "description": "Augmented Reality Wayfinding experience for the Miami Heat Stadium. Location data came from an external SDK called Mapsted. The accuracy wasn't enough to provide a stable AR experience, so we had to craft a custom solution to improve wayfinding guidance.",
     "tags": ["Unity 3D", "C#", "AR+GPS", "Cloud Anchor", "Native Android", "Mini Games"],
     "client": "Miami Heat Stadium",
     "backgroundImagePath": "./images/miamiheat.jpg",
@@ -48,7 +48,7 @@
   {
     "name": "Building visualizer",
     "short_name": "nineteengroupe",
-    "description": "Multiusers mixed reality building visualizer for the Nineteen Groupe. The app is used to visualize the building in real time with a 3D model in mixed reality. The presentation of the buildings is done by an operator with a tablet (Operator App), and the visualization is done by users with a VR headset (Viewer App) the communication is done via the Server App.",
+    "description": "Multiuser mixed reality building visualizer for the Nineteen Groupe. The app is used to visualize the building in real time with a 3D model in mixed reality. The presentation of the buildings is done by an operator with a tablet (Operator App), and the visualization is done by users with a VR headset (Viewer App) the communication is done via the Server App.",
     "tags": ["Unity 3D", "C#", "Networking", "Mixed Reality", "Occulus 3", "Optimization", "Tools"],
     "client": "Nineteen Groupe",
     "backgroundImagePath": "./images/nineteengroupe.png",
@@ -78,7 +78,7 @@
   {
     "name": "Closer's Cavern",
     "short_name": "closerscavern",
-    "description": "Closer's cavern was be the centerpiece of the sales Lodge where attendees can test their sales cloud knowledge to earn a spot on the leaderboard. The game was a 3D experience where users can explore a cave to search for hidden gems and find the right answers to the questions.",
+    "description": "Closer's cavern was the centerpiece of the sales Lodge where attendees can test their sales cloud knowledge to earn a spot on the leaderboard. The game was a 3D experience where users can explore a cave to search for hidden gems and find the right answers to the questions.",
     "tags": ["Unity 3D", "C#", "Websocket communication", "Leaderboard", "Video game"],
     "client": "Salesforce",
     "backgroundImagePath": "./images/closerscavern.jpg",
@@ -93,7 +93,7 @@
   {
     "name": "Yomis' Magic Mirror",
     "short_name": "magicmirror",
-    "description": "The magic mirror is a screen that allows you to see yourself with the jowerly of the Yomis (little green mythical creatures created by Europapark) that give you magic powers in your hands. This mirror take place inside a wainting line for a film adventure for the whole family",
+    "description": "The magic mirror is a screen that allows you to see yourself with the jewelry of the Yomis (little green mythical creatures created by Europapark) that give you magic powers in your hands. This mirror takes place in a wainting line for a film adventure for the whole family.",
     "tags": ["Unity 3D", "C#", "Azure Kinect", "Body tracking", "VFX"],
     "client": "Europapark",
     "backgroundImagePath": "./images/magicmirror.jpg",
@@ -122,7 +122,7 @@
   {
     "name": "Windows AR Visualizer",
     "short_name": "windowsarvisualizer",
-    "description": "Andersen have a web 3d visualizer for their windows and doors. The goal of this project was to create a mobile app that allow the user to visualize the windows and doors in AR with their phone or tablet.",
+    "description": "Andersen has a web 3d visualizer for their windows and doors. The goal of this project was to create a mobile app that allows the user to visualize the windows and doors in AR with their phone or tablet.",
     "tags": ["Android native AR", "Kotlin", "Webapp integration", "Android as a library"],
     "client": "Andersen",
     "backgroundImagePath": "./images/windowsvisualizerar.jpg",
@@ -136,7 +136,7 @@
   {
     "name": "Supernal Farnborough Airshow",
     "short_name": "supernal",
-    "description": "Supernal’s challenge: communicating their vision of Air Mobility and generating excitement about their Electronic Vertical Take-off and Landing cockpit cabin concept. They needed to showcase their brand and create immersive experiences that would captivate and engage audiences.",
+    "description": "Supernal’s challenge was to communicate their vision of Air Mobility and generate excitement about their new cockpit cabin concept. They needed to showcase their brand and create immersive experiences that would captivate and engage audiences.",
     "tags": ["Unity 3D", "C#", "AR", "Network communication", "Kiosk mode"],
     "client": "Supernal",
     "backgroundImagePath": "./images/supernal.jpg",
@@ -151,7 +151,7 @@
   {
     "name": "AR Car configurator",
     "short_name": "arcarconfigurator",
-    "description": "For the CES, Marelli wanted to showcase their new car configurator in AR. The goal was to create a configurator that allow the user to discover and customize the car of their dreams.",
+    "description": "For the CES, Marelli wanted to showcase their new car configurator in AR. The goal was to create a configurator that allows the user to discover and customize the car of their dreams.",
     "tags": ["Unity 3D", "C#", "AR", "Configurator", "Websocket communication"],
     "client": "Marelli",
     "backgroundImagePath": "./images/arcarconfigurator.jpg",
