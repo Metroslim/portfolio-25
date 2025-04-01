@@ -145,7 +145,7 @@ function render() {
             target="_blank"
           >
             <RightArrowSVG class="h-6 w-4 md:h-8 md:w-6 md:mr-2 fill-white" />
-            <span class="flex-initial">Download resume</span>
+            <span class="flex-initial">Download my resume</span>
           </a>
         </div>
       </div>

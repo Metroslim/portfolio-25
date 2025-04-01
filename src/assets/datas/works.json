@@ -1,15 +1,15 @@
 [
   {
-    "name": "Myra - MR Experience",
+    "name": "Eden - MR Experience",
     "short_name": "MyraMR",
-    "description": "A 15-minute multiuser & multilanguage mixed reality experience for Traumatica 2024 - the Europapark Halloween special event.",
+    "description": "A 15-minute multiuser & multilanguage mixed reality experience for Traumatica 2024, the Europapark Halloween special event.",
     "tags": ["Unity 3D", "C#", "VFX", "Networking", "Mixed Reality", "Vive Elite XR headset"],
     "client": "Europapark",
     "backgroundImagePath": "./images/myra.jpg",
     "responsabilities": [
-      "In house framework developmennt for network communication",
-      "In house framework developmennt for the headset app",
-      "3D Assets integration and optimization",
+      "In house framework development for network communication",
+      "In house framework development for the headset app",
+      "3D Assets integration",
       "Creation of the experience timelines",
       "VFX",
       "Performance optimization"
@@ -38,9 +38,9 @@
     "client": "Miami Heat Stadium",
     "backgroundImagePath": "./images/miamiheat.jpg",
     "responsabilities": [
-      "Communication between native android and Unity app",
+      "Communication between native code and Unity",
       "Creating the AR Wayfinding experience based on AR + location datas",
-      "On-site optimization of AR Experience with location datas accuracy",
+      "On-site optimization of AR experience limited by location data accuracy",
       "Google Cloud Anchor for mini games",
       "Native integration of the Unity app in the Android app"
     ]
@@ -53,7 +53,7 @@
     "client": "Nineteen Groupe",
     "backgroundImagePath": "./images/nineteengroupe.png",
     "responsabilities": [
-      "Defining guidelines for the 3d models used for buildings",
+      "Defining guidelines for the 3d models for automation",
       "Industrialisation to implement new buildings",
       "Optimization",
       "UI for the operator and viewer app",
@@ -72,7 +72,7 @@
       "Benchmark and installation of the bodyscanner",
       "Operator IOs App for the full body scan",
       "Automatic pipeline to process the scanned avatars",
-      "Randomized and on the beats videos generation"
+      "Unity app to create randomized dances and videos generation"
     ]
   },
   {
@@ -100,7 +100,7 @@
     "responsabilities": [
       "Body tracking with the Azure Kinect",
       "Necklace props spawning",
-      "VFX",
+      "Ineractive VFX",
       "Game management system",
       "Communication with on-site lights and sound system"
     ]
@@ -108,7 +108,7 @@
   {
     "name": "AR Interactive Map",
     "short_name": "interactivemapar",
-    "description": "Explore ancient maps and bring places steeped in history to life. Thanks to augmented reality, ancient buildings come to life. Like a true exploration game, we've created gameplay that invites the user to find clues hidden in virtual buildings.",
+    "description": "Explore ancient maps and bring places steeped in history to life thanks to augmented reality. Like a true exploration game, we've created gameplay that invites the user to find clues hidden in virtual buildings.",
     "tags": ["Unity 3D", "C#", "AR", "Serious game"],
     "client": "Departmental archive",
     "backgroundImagePath": "./images/interactivemapar.jpg",
@@ -116,7 +116,8 @@
       "3D Assets integration and optimization",
       "AR images tracking",
       "Game management system",
-      "Archive medias integration"
+      "Archive medias integration",
+      "UI Integration & animation in Unity"
     ]
   },
   {
@@ -128,8 +129,8 @@
     "backgroundImagePath": "./images/windowsvisualizerar.jpg",
     "responsabilities": [
       "Android native AR",
-      "Webapp integration",
-      "Webapp communication",
+      "Webpage integration",
+      "Webpage communication",
       "Android as a library"
     ]
   },
@@ -144,14 +145,13 @@
       "3D Assets integration and optimization",
       "AR tracking",
       "Game management system",
-      "Network communication with the server",
-      "Kiosk mode"
+      "Network communication with the server"
     ]
   },
   {
     "name": "AR Car configurator",
     "short_name": "arcarconfigurator",
-    "description": "For the CES, Marelli wanted to showcase their new car configurator in AR. The goal was to create a configurator that allows the user to discover and customize the car of their dreams.",
+    "description": "For the CES, Marelli wanted to showcase their new car configurator in AR. The configurator allows the user to discover and customize the car of their dreams.",
     "tags": ["Unity 3D", "C#", "AR", "Configurator", "Websocket communication"],
     "client": "Marelli",
     "backgroundImagePath": "./images/arcarconfigurator.jpg",
@@ -159,6 +159,7 @@
       "3D Assets integration and optimization",
       "AR tracking",
       "Configurator management system",
+      "Game management system",
       "Websocket communication with the server"
     ]
   }
