@@ -10,6 +10,7 @@ defineProps<{
   <div
     class="item relative h-full w-full bg-gradient-to-r group-odd:from-purple-500 group-odd:to-pink-500 group-even:from-sky-500 group-even:to-indigo-500 overflow-hidden"
   >
+    <div class="absolute top-0 left-0 w-full h-full bg-white opacity-20"></div>
     <div class="w-full max-w-6xl mx-auto h-full relative">
       <img
         class="brightness-[0.8] lg:brightness-[1] absolute p-[0.75rem] md:p-[2rem] lg:pt-[8rem] lg:pb-[6rem] lg:pl-[8rem] h-full w-full object-cover z-0"

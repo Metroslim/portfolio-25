@@ -132,7 +132,7 @@ function render() {
           <h2 class="text-4xl md:text-5xl font-bold text-purple-500 mt-2">
             Senior Unity Developer
           </h2>
-          <h3 class="text-2xl md:text-3xl font-semibold mt-6">
+          <h3 class="text-2xl md:text-3xl font-semibold mt-6 hidden">
             MR, VR, AR, Interactive Experiences
           </h3>
         </div>
